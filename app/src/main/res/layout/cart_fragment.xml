@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d7cfcf"
+        android:gravity="center_horizontal"
+        android:text="购物车"
+        android:textSize="20sp" />
+
+    <ExpandableListView
+        android:id="@+id/cart_expandable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:groupIndicator="@null"
+        android:scrollbars="none"></ExpandableListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/quanxuan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="全选" />
+
+        <TextView
+            android:id="@+id/qujiesuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:text="合计:0.00"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="150sp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="#ff0000"
+            android:clickable="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="去结算"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>

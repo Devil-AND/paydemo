@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="首页"
+        android:textSize="25sp" />
+
+    <include layout="@layout/jingdong_news_listbanner" />
+
+    <com.project.project2test.customview.AuToBanner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"></com.project.project2test.customview.AuToBanner>
+
+    <com.project.project2test.customview.AmountView
+        android:id="@+id/amount_view"
+        android:layout_width="wrap_content"
+        android:layout_height="36sp"
+        app:btnTextSize="25sp"
+        app:btnWidth="35dp"
+        app:tvWidth="40dp"></com.project.project2test.customview.AmountView>
+
+    <include layout="@layout/count_down_time" />
+
+</LinearLayout>

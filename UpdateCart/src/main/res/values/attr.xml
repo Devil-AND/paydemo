@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--banner的属性设置-->
+    <declare-styleable name="Banner">
+        <attr name="size" format="dimension" />
+        <attr name="margin" format="dimension" />
+    </declare-styleable>
+
+
+    <!--TickView（打钩小动画）的属性-->
+    <declare-styleable name="TickView">
+        <!--选中时圆的颜色-->
+        <attr name="checked_color" format="color" />
+        <!--是否选中-->
+        <attr name="checked" format="boolean" />
+        <!--圆半径-->
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+    <!--GramophoneView（唱片机）属性-->
+    <declare-styleable name="GramophoneView">
+        <!--图片半径-->
+        <attr name="picture_radius" format="dimension" />
+        <!--图片资源id-->
+        <attr name="src" format="reference" />
+        <!--唱片旋转速度-->
+        <attr name="disk_rotate_speed" format="float" />
+    </declare-styleable>
+
+    <!--加减器属性-->
+    <declare-styleable name="AmountView">
+        <!-- 左右2边+-按钮的宽度 -->
+        <attr name="btnWidth" format="dimension" />
+        <!-- 中间TextView的宽度 -->
+        <attr name="tvWidth" format="dimension" />
+        <!--<attr name="tvColor" format="color"/>-->
+        <attr name="tvTextSize" format="dimension"/>
+        <attr name="btnTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>

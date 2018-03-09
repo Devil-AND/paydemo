@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Mar 09 18:18:00 CST 2018
+0.baseType=DIRECTORY
+0.base=C\:\\WorkSpace\\AndroidWorkSpace\\Android_Project1\\Project2Test\\Alipaydemo\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

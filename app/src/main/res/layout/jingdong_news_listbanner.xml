@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15sp"
+    android:layout_marginRight="15sp"
+    android:background="@drawable/bgcolor"
+    android:orientation="horizontal"
+    android:paddingLeft="15sp"
+    android:paddingRight="15sp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jd_news_tit" />
+
+    <com.project.project2test.customview.NoticeView
+        android:id="@+id/notice_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_weight="1"></com.project.project2test.customview.NoticeView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="  | 更多 "
+        android:textSize="22sp" />
+</LinearLayout>
+

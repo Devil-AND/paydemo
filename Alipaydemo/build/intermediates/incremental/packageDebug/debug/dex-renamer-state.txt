@@ -1,0 +1,4 @@
+#Fri Mar 09 18:18:00 CST 2018
+base.0=C\:\\WorkSpace\\AndroidWorkSpace\\Android_Project1\\Project2Test\\Alipaydemo\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
